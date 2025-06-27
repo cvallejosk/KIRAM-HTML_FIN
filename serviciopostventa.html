@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiram Autos</title>
+    <title>Servicio Postventa - Kiram Autos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <div class="header-container">
+        <div class="container header-container">
             <div class="logo">
-            <a href="index.html" class="enlace-con-imagen">
-            <img src="Imagenes/Auto_logo.svg" alt="TEXTO_ALTERNATIVO">
-             </a>
+                <a href="index.html">
+                    <img src="Imagenes/Auto_logo.svg" alt="Logo Kiram Autos">
+                </a>
             </div>
 
-            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
-            <label for="menu-toggle" class="menu-toggle-label">
-                <span></span> <span></span>
+            <button id="menu-toggle" class="menu-toggle-btn" aria-label="Abrir menú">
                 <span></span>
-            </label>
+                <span></span>
+                <span></span>
+            </button>
 
             <nav class="nav-menu">
                 <ul class="nav-list">
@@ -27,7 +27,7 @@
                         <details class="dropdown-details">
                             <summary class="dropbtn">
                                 Nuevos
-                                <span class="arrow">&#9662;</span>
+                                <span class="arrow">▾</span>
                             </summary>
                             <div class="dropdown-content">
                                 <a href="index.html">Kia</a>
@@ -38,16 +38,14 @@
                                 <a href="index.html">Nissan</a>
                                 <a href="index.html">Renault</a>
                                 <a href="index.html">Mitsubishi</a>
-                                
                             </div>
                         </details>
                     </li>
-
                     <li class="dropdown-li">
                         <details class="dropdown-details">
                             <summary class="dropbtn">
                                 Camiones
-                                <span class="arrow">&#9662;</span>
+                                <span class="arrow">▾</span>
                             </summary>
                             <div class="dropdown-content">
                                 <a href="index.html">Fuso</a>
@@ -57,15 +55,16 @@
                     </li>
                     <li><a href="#">Seminuevos</a></li>
                     <li><a href="#">Crédito Vehicular</a></li>
-                    <li><a href="#">Locales</a></li>
+                    <li><a href="locales.html">Locales</a></li>
                 </ul>
-                <a href="#" class="btn-mantenimiento">Agenda tu mantenimiento</a>
+                <a href="serviciopostventa.html" class="btn btn-dark">Agenda tu mantenimiento</a>
             </nav>
         </div>
     </header>
 
-  
-        <section class="info-alternada-section">
+
+    <main>
+        <section class="info-alternada-section section">
             <div class="container info-alternada-container">
                 <div class="info-imagen">
                     <img src="Imagenes/mantenimiento2.jpg" alt="Servicio de Mantenimiento">
@@ -86,7 +85,7 @@
         <section class="info-alternada-section bg-light">
             <div class="container info-alternada-container reverse">
                 <div class="info-imagen">
-                    <img src="Imagenes/repuestos2.jpg"Repuestos Originales">
+                    <img src="Imagenes/repuestos2.jpg" alt="Repuestos Originales">
                 </div>
                 <div class="info-texto">
                     <h2>Repuestos Originales</h2>
@@ -96,13 +95,13 @@
             </div>
         </section>
         
-        <section class="info-alternada-section">
+        <section class="info-alternada-section section">
              <div class="container info-alternada-container">
                 <div class="info-imagen">
-                    <img src="Imagenes/pintura.jpg" alt="Accesorios para tu Vehículo">
+                    <img src="Imagenes/pintura.jpg" alt="Taller de pintura y carrocería">
                 </div>
                 <div class="info-texto">
-                    <h2>Pintura y carroceria</h2>
+                    <h2>Pintura y Carrocería</h2>
                     <p>Especialistas en pintura y carrocería, devolvemos el brillo original a tu auto con acabados profesionales, rápidos, duraderos y garantizados.</p>
                      <ul>
                         <li>Reparación de abolladuras</li>
@@ -113,69 +112,52 @@
                 </div>
             </div>
         </section>
-    
-
-
-
-
-
-
-
-
+    </main>
 
     <footer class="footer">
         <div class="container">
             <div class="footer-container">
-                <div class="footer-columna">
+                 <div class="footer-columna">
                     <h4>AutosPerú</h4>
                     <ul>
-                        <li><a href="#">Locales</a></li>
+                        <li><a href="locales.html">Locales</a></li>
                         <li><a href="#">Ventas corporativas</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Trabaja con nosotros</a></li>
-                        <li><a href="#">Promociones</a></li>
-                        <li><a href="#">Términos y condiciones</a></li>
                     </ul>
                 </div>
                 <div class="footer-columna">
                     <h4>Servicios</h4>
                     <ul>
-                        <li><a href="#">Servicio postventa</a></li>
+                        <li><a href="serviciopostventa.html">Servicio postventa</a></li>
                         <li><a href="#">Crédito vehicular</a></li>
-                        <li><a href="#">Pago online</a></li>
                         <li><a href="#">Prueba de manejo</a></li>
                     </ul>
                 </div>
                 <div class="footer-columna">
-                    <h4>Tipos de Vehículos</h4>
+                    <h4>Vehículos</h4>
                     <ul>
                         <li><a href="#">Automóviles</a></li>
-                        <li><a href="#">Buses</a></li>
-                        <li><a href="#">Camiones</a></li>
                         <li><a href="#">Camionetas</a></li>
                         <li><a href="#">Pick Ups</a></li>
-                        <li><a href="#">Sedán</a></li>
                         <li><a href="#">SUV</a></li>
-                        <li><a href="#">Vans</a></li>
                     </ul>
                 </div>
                 <div class="footer-columna">
                     <h4>Contacto</h4>
                     <ul>
                         <li><a href="#">Centro de ayuda</a></li>
-                        <li><a href="#">Contacto</a></li>
-                        <li><a href="#">Enviar una solicitud</a></li>
-                        <li><a href="mailto:Autosperu@correo.com>Autosperu@correo.com">Autosperu@correo.com</a></li>
-                        <li><a href='https://web.whatsapp.com/send?phone=51999999999'>Numero: +51 999 999 999</a></p></li>
+                        <li><a href="mailto:Autosperu@correo.com">Autosperu@correo.com</a></li>
+                        <li><a href="https://web.whatsapp.com/send?phone=51999999999">WhatsApp: +51 999 999 999</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="footer-bottom-section">
-                <div class="footer-bottom">
-                    <p>&copy; 2025 AutosPerú. Todos los derechos reservados.</p>
-                </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AutosPerú. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
